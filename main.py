@@ -1,4 +1,4 @@
-from telegram import (
+from googletrans_py import Translator (
     Update, InlineKeyboardButton, InlineKeyboardMarkup
 )
 from telegram.ext import (
