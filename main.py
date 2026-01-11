@@ -5,7 +5,7 @@ from telegram.ext import (
     ApplicationBuilder, CommandHandler, CallbackQueryHandler,
     ContextTypes, ConversationHandler
 )
-from googletrans_py import Translator
+from googletrans import Translator
 from datetime import datetime, timedelta
 import os
 import logging
