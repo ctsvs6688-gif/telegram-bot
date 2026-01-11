@@ -1,11 +1,11 @@
-from googletrans_py import Translator (
+from googletrans_py import (
     Update, InlineKeyboardButton, InlineKeyboardMarkup
 )
 from telegram.ext import (
     ApplicationBuilder, CommandHandler, CallbackQueryHandler,
     ContextTypes, ConversationHandler
 )
-from googletrans import Translator
+from googletrans_py import Translator
 from datetime import datetime, timedelta
 import os
 import logging
