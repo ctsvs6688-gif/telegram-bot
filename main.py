@@ -1,4 +1,4 @@
-from googletrans import (
+from telegram import (
     Update, InlineKeyboardButton, InlineKeyboardMarkup
 )
 from telegram.ext import (
@@ -11,7 +11,7 @@ import os
 import logging
 
 # ================= 配置 =================
-BOT_TOKEN = "8228263725:AAHlRuQ8uFTVTeTwMTzhdzL7h5wOlZ8Uczg"
+BOT_TOKEN = "8228263725:AAHQM8mkrp2OEmIbeBWMpCxFhE491HIV5co"
 ADMIN_CHAT_ID = int(os.getenv("ADMIN_CHAT_ID", "-7571918976"))
 
 # ================= 日志 =================
