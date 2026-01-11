@@ -11,8 +11,8 @@ import os
 import logging
 
 # ================= 配置 =================
-BOT_TOKEN = "8228263725:AAG9AK5A-0kZOJHBzuUYqLHjjkG2jW54Vt4"
-ADMIN_CHAT_ID = int(os.getenv("ADMIN_CHAT_ID", "-1001234567890"))
+BOT_TOKEN = "8228263725:AAGrxh6GqkT3cD74o_oprPvvxfpABFOWaLY"
+ADMIN_CHAT_ID = int(os.getenv("ADMIN_CHAT_ID", "-7571918976"))
 
 # ================= 日志 =================
 logging.basicConfig(
